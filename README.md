@@ -1,4 +1,4 @@
-# LaserDefender_pooky
+# LaserDefender_ML
 
 ## Introduction
 I have been studying reinforcement learning. 
@@ -14,9 +14,9 @@ So you are going to need Unity on your computer to get going with this. (its fre
 The repo uses ML-agents to control the player. You can install that from Github.
 That is free. But you will have to read the instructions for ML-agents to learn how to use it.
 
-The repo also tries using TF-agents to control the player. 
-That's optional. TF-agents is a reinforcement library that substantially overlaps ML.
-But if you want to try it, you will need to install tf-agents from GitHub.
+The game sends images of the game to python for training. Then the python processes the images and decides on an action.
+
+Right now this repo doesn't contain the brain which is the trained model. I could include it if people want.
 
 ## Credit and Links.
 The Space Shooter game is derived from a game in a course that I took. Here is a link to the _Udemy_ course: [Unity Course](https://www.udemy.com/unitycourse/). Great course and I recommend it!
@@ -25,14 +25,16 @@ I've modified the game so that it can communicate with Python. This enables us t
 To train the game with machine learning, you will need to install ML agents: 
 [ML agents](https://github.com/Unity-Technologies/ml-agents)
 
-I also tried the reinforcement library TF Agents:
-[TF agents](https://github.com/tensorflow/agents)
 
 ## Instructions
 You will need Unity on your computer. Go to the Unity website to download and install it, for free.
 Now you should be able to start and play the Unity game in the repo. If you have some problems, you may need to go to the GitHub/MLagents to install MLagents.
 MLagents is a great system that enables Unity to communicate with python.
-Also install tfAgents: GitHub/TFagents
+You will need some expertise in Unity and MLagents to get all this working.
+
 
 ## results
-Well my results were not great. I did not succeed in training these agents to win the video game. But if you try it, let me know, I would like to hear it!
+The results were quite good!
+You can also see my YouTube video here:
+[Matt's YouTube Video on machine learning game](https://www.youtube.com/watch?v=50oMJ1dNB_o)
+
