@@ -13,7 +13,7 @@ default:
     normalize: false
     num_epoch: 3
     num_layers: 3
-    time_horizon: 1000
+    time_horizon: 100
     sequence_length: 64
     summary_freq: 2000
     use_recurrent: false
